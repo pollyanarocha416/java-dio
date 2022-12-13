@@ -9,7 +9,7 @@ public class App {
 
         // ctrl + k + c pra comentar varias linhas
         // ctrl + k + u pra descomentar
-
+        
     }
     public static String nomeCompleto(String primeiroNome, String segundoNome){
         return "Resul do metodo " + primeiroNome.concat(" ").concat(segundoNome);
