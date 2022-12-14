@@ -1,4 +1,4 @@
-package edu.polly.segundasemana;
+package edu.polly.primeirasemana;
 public class App {
     public static void main(String[] args){
         String primeiroNome = "Pollyana";
