@@ -12,6 +12,11 @@ public class tipoeVariaveis {
         // boolean
         // char
 
+        // pra variavel nunca mudar
+        final double VALOR_DE_PI = 3.14;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
 
     }
 }
