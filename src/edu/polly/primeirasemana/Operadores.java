@@ -18,5 +18,17 @@ public class Operadores {
         num = num * -1;
         System.out.println(num);
 
+        // incremento de numero:
+        // repeticao de valor
+        int numeros = 5;
+        numeros++; // numeros + 1
+        System.out.println(numeros);
+
+        boolean variavel = true;
+        System.out.println(!variavel);
+        //reatribuir o valor dela pra q seja falsa:
+        System.out.println(variavel);
+        variavel = !variavel;
+        System.out.println(variavel);
     }
 }
