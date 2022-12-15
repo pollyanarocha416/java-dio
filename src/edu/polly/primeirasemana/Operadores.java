@@ -46,5 +46,24 @@ public class Operadores {
         String nomeUm = "polly";
         String nomeDois = "polly";
         System.out.println(nomeUm.equals(nomeDois));//pra comparar string
+
+        // and && , or
+
+        boolean c1 = true;
+        boolean c2 = false;
+        
+        if (c1 && c2) {
+            System.out.println("as duas sao verdade");
+        }else{
+            System.out.println("as duas NAO sao verdade");
+        }
+        if (c1||c2) {
+            System.out.println("uma das duas e verdadeira");  
+        }
+
+        int condicao1 = 3, condicao2 = 4;
+        if (condicao1 != condicao2 && (condicao1 < condicao2)) {
+            System.out.println("as condicoes cumprem os dois requisitos");
+        }
     }
 }
