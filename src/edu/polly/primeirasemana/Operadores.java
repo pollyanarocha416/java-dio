@@ -30,5 +30,21 @@ public class Operadores {
         System.out.println(variavel);
         variavel = !variavel;
         System.out.println(variavel);
+
+        // operadores relacionais:
+        // ==, !=, >, >=, <, <=.
+        int num1 = 1, num2 = 1;
+        boolean simNao = num1 == num2;
+        System.out.println("num1 e igual a num2? " + simNao);
+
+        if (num1 != num2) {
+            System.out.println("a nossa condicao e verdadeira");
+        }else{
+            System.out.println("e falsa");
+        }
+
+        String nomeUm = "polly";
+        String nomeDois = "polly";
+        System.out.println(nomeUm.equals(nomeDois));//pra comparar string
     }
 }
