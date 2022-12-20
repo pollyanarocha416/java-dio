@@ -22,7 +22,7 @@ public class metodos {
         return num1 + num2;
     }
     public void imprimir(String texto){
-
+        
     }
 
     public double dividir(int dividendo, int divisor) throws Exception{
