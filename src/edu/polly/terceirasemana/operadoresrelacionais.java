@@ -13,6 +13,10 @@ public class operadoresrelacionais {
         short h1 = 25;
         long l1 = 1597L;
         // nao tem como comparar tipos de dados diferente
+        // posso comparar numeros de tipos diferentes
+        System.out.println(""+(y1 > h1)); // posso comporar byte e short
+        System.out.println(" "+ (l1 > i1));
+        System.out.println(" "+ (f1 <= d1));
     }
 
 }
