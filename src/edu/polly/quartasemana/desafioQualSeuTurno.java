@@ -7,15 +7,21 @@ public class desafioQualSeuTurno {
 
 
         Scanner leitor = new Scanner(System.in);
+        System.out.println("qual o seu turno? ");
 
         char turno = leitor.next().toUpperCase().charAt(0);
-
+        
+        
         char m = 'M';
         char n = 'N';
+        char v = 'V';
         if(turno == m){
           System.out.println("Bom Dia!");  
         }
-        else if(turno == n){
+        else if (turno == v) {
+          System.out.println("Boa Tarde!");
+        }
+        else if (turno == n) {
           System.out.println("Boa Noite!");
         }
         else{
