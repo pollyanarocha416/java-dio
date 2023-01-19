@@ -15,6 +15,14 @@ public class oopconceito {
     // capa, tema, autor, editora, assunto, qtd de pagina
 
 
+    // estrutura da OOP:
+
+    //class: td esta na class, abstrai um conjunto.
+    //atribito
+    // metodo
+    // objto
+    //mensagem
+
 
     public static void main(String[] args) {
         // conceitos sobre OOP:
