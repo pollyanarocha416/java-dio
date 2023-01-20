@@ -46,4 +46,12 @@ public class carro {
         return capcidadeTanque *valorCombustivel;
     }
 
+    @Override
+    public String toString(){
+        return "Carro [ cor: "+cor+", modelo: "+modelo+", capacidade de tanque: "+capcidadeTanque+"]";
+    }
+    public static void main(String[] args) {
+        carro mycarro= new carro("roxo", "ferrari", 20);
+        System.out.println(mycarro);
+    }
 }
