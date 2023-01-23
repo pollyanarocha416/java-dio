@@ -53,5 +53,7 @@ public class carro {
     public static void main(String[] args) {
         carro mycarro= new carro("roxo", "ferrari", 20);
         System.out.println(mycarro);
+        carro carro2 = new carro("rosa", "uso", 50);
+        System.out.println(carro2);
     }
 }
