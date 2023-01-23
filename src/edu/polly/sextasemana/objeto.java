@@ -12,7 +12,11 @@ public class objeto {
         // exemplo: carro.metodo(); 
         
         //instancia X estático: atributos e métodos
-        // estado de um objeto
+        // estado de um objeto:
+        // Por exemplo, se você tem uma classe "Carro" com atributos como "marca",
+        // "modelo" e "ano", o estado de um objeto "Carro" pode ser representado por
+        // valores como "Toyota", "Camry" e "2022", respectivamente.
+        
         // identidade de um objeto
         // representacao numerica de um objeto
     }
