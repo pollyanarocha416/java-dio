@@ -29,6 +29,11 @@ public class objeto {
 
 
 
-        // representacao numerica de um objeto
+        // representacao numerica de um objeto:
+        // O método hashCode() retorna um valor inteiro que representa a identidade
+        // única do objeto, ele é gerado automaticamente pelo compilador e é único para
+        // cada objeto, mas não é garantido que seja único para todos os objetos, por
+        // isso, é importante sobrescrever este método quando se trabalha com classes
+        // que possuem múltiplas instâncias.
     }
 }
