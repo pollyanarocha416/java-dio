@@ -49,11 +49,13 @@ public class carro {
     @Override
     public String toString(){
         return "Carro [ cor: "+cor+", modelo: "+modelo+", capacidade de tanque: "+capcidadeTanque+"]";
+        
     }
     public static void main(String[] args) {
         carro mycarro= new carro("roxo", "ferrari", 20);
         System.out.println(mycarro);
         carro carro2 = new carro("rosa", "uso", 50);
         System.out.println(carro2);
+        carro2.totalValorTanque(45);
     }
 }
