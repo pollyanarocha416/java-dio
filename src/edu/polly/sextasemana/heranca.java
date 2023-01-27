@@ -12,5 +12,9 @@ public class heranca {
     //}
 
 
-    // java nao tem herança multipla 
+    // java nao tem herança multipla
+    
+    // upcast -> subir na herarquia e downcast -> decer
+    // A a = new B();
+    // B a = (B) new A(); -> nao e muito util
 }
