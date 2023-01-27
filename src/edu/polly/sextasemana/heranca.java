@@ -10,4 +10,7 @@ public class heranca {
     //exemplo:
     //class A extends B{
     //}
+
+
+    // java nao tem herança multipla 
 }
