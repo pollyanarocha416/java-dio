@@ -1,5 +1,5 @@
 package edu.polly.sextasemana;
 
-public class Faxineiro {
+public class Faxineiro extends Funcionario{
     
 }

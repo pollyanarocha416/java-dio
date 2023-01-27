@@ -1,5 +1,5 @@
 package edu.polly.sextasemana;
 
-public class Gerente {
+public class Gerente extends Funcionario {
     
 }

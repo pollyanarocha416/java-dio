@@ -8,7 +8,7 @@ public class RodarAplicacao {
         Funcionario vendedor = new Vendedor();
         Funcionario faxineiro = new Faxineiro();
 
-        //downcast
-        Vendedor vendedor_ = (vendedor) new Funcionario();
+        //downcast: nao e indicado usar pq da erro
+        //Vendedor vendedor_ = (vendedor) new Funcionario();
     }
 }
