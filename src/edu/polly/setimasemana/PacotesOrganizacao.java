@@ -5,4 +5,7 @@ public class PacotesOrganizacao {
 
     // package
     // import
+
+    //visibilidade: modificador de acesso
+    // private, protected e public
 }
