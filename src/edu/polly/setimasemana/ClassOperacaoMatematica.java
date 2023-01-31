@@ -1,6 +1,8 @@
 package edu.polly.setimasemana;
 
 public class ClassOperacaoMatematica implements OperacaoMatematica{
+    //na interface vc precisa sobre escrever 
+    
     @Override
     public void somar(int a, int b){
         System.out.println("resul: "+(a + b));
