@@ -19,6 +19,7 @@ public class rodarAplicacao {
 
         System.out.println(" ");
 
+        //sobreescrita pura
         ClasseFilha2 classeFilha2 = new ClasseFilha2();
         classeFilha2.metodo2();
     }
