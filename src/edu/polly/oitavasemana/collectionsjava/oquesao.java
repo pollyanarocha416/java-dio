@@ -1,4 +1,4 @@
-package edu.polly.setimasemana.collectionsjava;
+package edu.polly.oitavasemana.collectionsjava;
 
 public class oquesao {
     // é um frameWork

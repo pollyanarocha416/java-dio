@@ -1,4 +1,4 @@
-package edu.polly.oitavasemana;
+package edu.polly.oitavasemana.collectionsjava;
 
 import java.util.ArrayList;
 import java.util.Arrays;
