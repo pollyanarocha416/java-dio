@@ -47,7 +47,8 @@ public class exercicioTemperatura {
         System.out.println("ja trabalhou com a vitima? ");
         String p5 = leitor.nextLine();
 
-    
+
+        
 
 
     }
