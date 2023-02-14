@@ -31,7 +31,7 @@ public class validainfo {
         System.out.print("Insira o sua idade: ");
         int idade = input.nextInt();
 
-        while (idade > 0 | idade < 150) {
+        while (idade < 0 | idade > 150) {
             System.out.println("Idade inválida. Por favor, insira uma idade entre zero e cento e sinquenta.");
             System.out.print("Insira o sua idade: ");
             idade = input.nextInt();
