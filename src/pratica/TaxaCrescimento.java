@@ -10,15 +10,13 @@ mantidas as taxas de crescimento. */
 
 public class TaxaCrescimento {
     public static void main(String[] args) {
-        int paisaAno1 = 8000;
-        int paisbAno1 = 200000;
 
-        Double paisaAno2 = 8000 * 0.3 + 8000;
-        for (double i = paisaAno2; i < paisbAno1; i++) {
-            System.out.println("pais a ultrapassou o pais b: "+ i);
+        Double firstAnoA =  (80000 * 0.3) + 80000;
+        Double firstAnoB = (200000 * 0.15) + 200000;
+
+        for (Double i = firstAnoA; i < firstAnoB; i++) {
+            
         }
 
-
     }
-
 }
