@@ -11,12 +11,16 @@ mantidas as taxas de crescimento. */
 public class TaxaCrescimento {
     public static void main(String[] args) {
 
-        Double firstAnoA =  (80000 * 0.3) + 80000;
-        Double firstAnoB = (200000 * 0.15) + 200000;
+        Double populacao_a = 80000.0;
+        Double populacao_b = 200000.0;
+        Double taxa_crescimento_a = 0.03;
+        Double taxa_crescimento_b = 0.015;
+        Double anos = 0.0;
 
-        for (Double i = firstAnoA; i < firstAnoB; i++) {
-            
-        }
-
+        while (populacao_a < populacao_b) {
+            anos += 1;
+            populacao_a = populacao_a * (1 + taxa_crescimento_a);
+            populacao_b = populacao_b * (1 + taxa_crescimento_b);
+        }System.out.println("Serão necessários " + anos + " ano(s) para que a população de A ultrapasse ou iguale a população de B.");
     }
 }
