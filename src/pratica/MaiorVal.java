@@ -7,22 +7,20 @@ public class MaiorVal {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("digite o primeiro valor: ");
-        int val1 = input.nextInt();
+        // Lê 5 números do usuário
+        System.out.println("Digite 5 números: ");
+        double num1 = input.nextDouble();
+        double num2 = input.nextDouble();
+        double num3 = input.nextDouble();
+        double num4 = input.nextDouble();
+        double num5 = input.nextDouble();
 
-        System.out.println("digite o segundo valor: ");
-        int val2 = input.nextInt();
+        double soma = num1 + num2 + num3 + num4 + num5;
+        double media = soma / 5;
 
-        System.out.println("digite o terceiro valor: ");
-        int val3 = input.nextInt();
-
-        System.out.println("digite o quarto valor: ");
-        int val4 = input.nextInt();
-
-        System.out.println("digite o quinto valor: ");
-        int val5 = input.nextInt();
-
-
-        
+        // Exibe o resultado
+        System.out.println("A soma dos números é: " + soma);
+        System.out.println("A média dos números é: " + media);
+       
     }
 }
