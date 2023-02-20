@@ -34,8 +34,8 @@ try {
 
     System.out.println("Serão necessários " + anos
             + " ano(s) para que a população de A ultrapasse ou iguale a população de B.");
-} catch (InputMismatchException e) {
-    System.out.println("Erro: entrada inválida. Por favor, digite um número.");
-}
-}
+    } catch (InputMismatchException e) {
+            System.out.println("Erro: entrada inválida. Por favor, digite um número.");
+        }
+    }
 }
