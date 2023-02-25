@@ -69,5 +69,7 @@ public class validainfo {
          }
          System.out.println("estado civil valido");
 
+         
+
     }
 }
