@@ -1,6 +1,7 @@
 package edu.polly.decimasemana;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -20,9 +21,14 @@ public class SetExemplos {
         Set<Double> notas3 = new TreeSet<>(notas);
         System.out.println(notas3);
 
+        
+
+        
+        System.out.println("exiba o menor valor: " + Collections.min(notas));
+    
         System.out.println("pra apagar o conjunto: ");
         notas.clear();
-
         System.out.println("pra conferir sse estar vazio: " + notas.isEmpty());
+
     }
 }
